@@ -1,1 +1,1 @@
-# on-my-selenium
+# oh-my-selenium
