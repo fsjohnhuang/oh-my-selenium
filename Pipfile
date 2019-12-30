@@ -3,11 +3,15 @@ name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
 
-[dev-packages]
+[dev-packages]                                                                                                                                                                                
+jedi = "*"                                                                                                                                                                                    
+rope = "*"                                                                                                                                                                                    
+yapf = "*"                                                                                                                                                                                    
 twine = "*"
-
-[packages]
-oh-my-logging = "*"
+                                                                                                                                                                                              
+[packages]                                                                                                                                                                                    
+selenium = "*"                                                                                                                                                                                
+mypy = "*"  
 
 [requires]
-python_version = "3.6"
+python_version = "3.4"
